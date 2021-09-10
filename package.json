@@ -6,7 +6,9 @@
     "snowpack": "^3.8.8"
   },
   "scripts": {
-    "dev": "snowpack dev --open none & swa start http://localhost:8080 --api ./api",
+    "dev-snowpack":"snowpack dev --open none", 
+    "dev-swa":"swa start http://localhost:8080 --api ./api",
+    "dev": "npm run dev-swa & npm run dev-snowpack",
     "build": "snowpack build"
   }
 }
