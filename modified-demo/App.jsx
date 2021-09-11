@@ -2,6 +2,7 @@ import React from 'react';
 
 // Import the DogList component
 import DogList from './DogList'
+// import CatList from './CatList'
 
 function App() {
     return (
@@ -9,9 +10,12 @@ function App() {
             <h1>Dog names</h1>
             {/* Display the DogList component */}
             <DogList />
-            <br/>
+
             {/* TODO: Add message */}
-            <p>hello world!</p>
+            
+            {/* <h1>Cat names</h1> */}
+            {/* Display the DogList component */}
+            {/* <CatList /> */}
 
         </article>
     )
